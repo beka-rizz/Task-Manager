@@ -3,8 +3,8 @@ plugins {
     application
 }
 
-group = "kz.kbtu"
-version = "1.0"
+group = "org.example"
+version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
@@ -19,5 +19,5 @@ kotlin {
 }
 
 application {
-    mainClass.set("taskmanager.MainKt")
+    mainClass.set("MainKt")
 }
